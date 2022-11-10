@@ -8,6 +8,7 @@ html {
 }
 body {
 	background: #eee;
+	background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
 	padding: 0 16px;
 }
 
@@ -58,14 +59,13 @@ footer p {
 .note button {
 	position: relative;
 	float: right;
-	margin-right: 10px;
 	color: #f5ba13;
 	border: none;
 	width: 36px;
 	height: 36px;
 	cursor: pointer;
 	outline: none;
-	background-color: inherit
+	background-color: inherit;
 }
 
 form.create-note {
