@@ -19,7 +19,7 @@ function CreateArea(props) {
 
 	return (
 		<div>
-			<form onSubmit={submitNote}>
+			<form className="create-note" onSubmit={submitNote}>
 				<input
 					name="title"
 					placeholder="Title"
